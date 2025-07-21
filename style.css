@@ -212,3 +212,20 @@ button:hover {
 .hidden {
   display: none;
 }
+#copy-ip-btn {
+  margin-left: 15px;
+  background: #0ff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 0 8px #0ff;
+  transition: background-color 0.3s ease;
+  color: #000;
+}
+
+#copy-ip-btn:hover {
+  background: #0cc;
+  box-shadow: 0 0 15px #0ff;
+}
