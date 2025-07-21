@@ -59,3 +59,18 @@ document.getElementById("signup-form").addEventListener("submit", function (e) {
   e.preventDefault();
   document.getElementById("signup-msg").classList.remove("hidden");
 });
+const copyBtn = document.getElementById("copy-ip-btn");
+const ipAddressSpan = document.getElementById("ip-address");
+
+copyBtn.addEventListener("click", () => {
+  const ip = ipAddressSpan.textContent;
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(ip).then(() => {
+      copyBtn.textContent = "Copied!";
+      setTimeout(() => (copyBtn.textContent = "📋 Copy IP"), 2000);
+    });
+  } else {
+    // fallback
+    alert("Copy to clipboard not supported in your browser.");
+  }
+});
