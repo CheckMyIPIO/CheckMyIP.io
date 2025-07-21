@@ -32,3 +32,17 @@ fetch("https://ipapi.co/json/")
     console.error("Error fetching IP data:", error);
     infoBox.innerHTML = `<p style="color:red;">⚠️ Could not load your IP info. Please try again later.</p>`;
   });
+📡 Network Info
+IP Address: 103.87.204.45
+City: London
+Region: England
+Country: United Kingdom (GB)
+Postal Code: SW1A
+Timezone: Europe/London
+ISP / Org: Cloudflare, Inc.
+Hostname: 103-87-204-45.cloudflare.net
+
+📱 Device Info
+Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) ...
+Platform: Win32
+Screen Size: 1920 x 1080
