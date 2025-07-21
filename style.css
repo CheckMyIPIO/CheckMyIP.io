@@ -50,3 +50,69 @@ a {
   color: #007acc;
   text-decoration: none;
 }
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #ffffff);
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Container to center everything */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Card-style box */
+.card {
+  background: #ffffff;
+  padding: 30px 40px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  max-width: 500px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+  font-size: 2em;
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 1.5em;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Paragraphs and text */
+p {
+  margin: 0.5em 0;
+}
+
+/* Link styles */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Small footer */
+.credit {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #888;
+}
