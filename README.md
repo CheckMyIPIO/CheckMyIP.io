@@ -1,5 +1,4 @@
-# CheckMyIP.io
-“Find your public IP address instantly. Use CheckMyIP.io to view your IP, location, ISP, and browser info — fast, free, and secure.”
+
 # CheckMyIP.io
 
 A simple, fast, and free tool to check your public IP address, location, and ISP info in your browser.
