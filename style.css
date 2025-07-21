@@ -179,3 +179,36 @@ a:hover {
   box-shadow: 0 0 16px rgba(0, 255, 255, 0.3);
   overflow: hidden;
 }
+form {
+  margin-top: 10px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  background-color: #222;
+  color: #0ff;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #0ff;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 10px #0ff;
+}
+
+button:hover {
+  background-color: #0cc;
+  box-shadow: 0 0 20px #0ff;
+}
+
+.hidden {
+  display: none;
+}
