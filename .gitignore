@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# OS junk
+.DS_Store
+
+# Node (just in case)
+node_modules/
+npm-debug.log*
+
+# Environment files
+.env
