@@ -46,3 +46,11 @@ Hostname: 103-87-204-45.cloudflare.net
 Browser: Mozilla/5.0 (Windows NT 10.0; Win64; x64) ...
 Platform: Win32
 Screen Size: 1920 x 1080
+// Replace this line:
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+
+// With this dark tile provider:
+L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> & contributors | <a href="https://carto.com/">Carto</a>',
+}).addTo(map);
